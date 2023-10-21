@@ -28,10 +28,13 @@ Secondly we will insert the Hive Script into insert the table into the extracted
 movies in our dataset.<br></br>
 
 
-Here I have briefly added the steps to follow in the oozie.txt.<br></br>
+**I have briefly attached the steps to follow in the oozie.txt**.<br></br>
 
 In this project the focus is on creating the workflow for oozie consisting of these two actions and then if reaches end node successfull it gonna come to end state and 
-if it fails then it will exit from the current node.
+if it fails then it will exit from the current node.<br></br>
+
+**Important Note- Go through the dataset before seeing the workflow.**
+
 
 
 </table>
