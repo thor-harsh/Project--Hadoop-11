@@ -34,7 +34,7 @@ Sqoop is a command-line interface application for transferring data between rela
 Apache Hive is a data warehouse software project built on top of Apache Hadoop for providing data query and analysis. Hive gives an SQL-like interface to query data stored in various databases and file systems that integrate with Hadoop.<br></br>
 
 
-**I have briefly attached the steps to follow in the oozie.txt**.<br></br>
+**Please check the oozie.txt that I have attached above to get the to know the steps in brief**.<br></br>
 
 In this project the focus is on creating the workflow for oozie consisting of these two actions and then if reaches end node successfull it gonna come to end state and 
 if it fails then it will exit from the current node.<br></br>
