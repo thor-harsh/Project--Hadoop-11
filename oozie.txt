@@ -1,0 +1,24 @@
+#oozie is a system for running and scheduling hadoop tasks.
+
+
+#The oozie workflows contains two actions:
+
+#Use sqoop to extract movie data from mysql
+
+#Then hive script will create tables based on that extract
+
+
+#Putting workflow.xml in hdfs
+hadoop fs -put workflow.xml /user/maria_dev
+
+#Putting Hive script in hdfs
+hadoop fs -put oldmovies.sql /user/maria_dev
+
+#Also install mysql connector for connecting it with sqoop and and we install that library into oozie so that it can see it
+hadoop fs -put /usr/share/java/mysql-connector-java.jar /user/oozie/share/lib/2023022424
+
+#Now restart and it the command prompt write the command to start oozie
+#So it is telling that we want to run oozie at this ip address and then the path of job.properties on local file system and not on hdfs
+#Run to actually start the workflow right now
+
+oozie job --oozie http://localhost:11000/oozie -config /home/maria_dev/job.properties run
