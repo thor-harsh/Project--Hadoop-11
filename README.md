@@ -27,10 +27,10 @@ First we will execute scoop to extract the movielens table from the given datase
 Secondly we will insert the Hive Script into insert the table into the extracted data and save it at the output directory where we will run sql queries to extract top 10
 movies in our dataset.<br></br>
 
-**What is Scoop?**<br></br>
+**What is Scoop**?<br></br>
 Sqoop is a command-line interface application for transferring data between relational databases and Hadoop. The Apache Sqoop project was retired in June 2021 and moved to the Apache Attic.<br></br>
 
-**What is Hive?**<br></br>
+**What is Hive**?<br></br>
 Apache Hive is a data warehouse software project built on top of Apache Hadoop for providing data query and analysis. Hive gives an SQL-like interface to query data stored in various databases and file systems that integrate with Hadoop.<br></br>
 
 
