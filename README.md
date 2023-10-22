@@ -18,7 +18,7 @@ Oozie is integrated with the rest of the Hadoop stack supporting several types o
 
 Oozie is a scalable, reliable and extensible system.<br></br>
 
-**Actions in Workflow**<br></br>
+**Actions in Workflow** <br></br>
 
 In this workflow we will create perform two main actions.<br></br>
 
